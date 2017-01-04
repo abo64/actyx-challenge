@@ -39,6 +39,6 @@ Now I am waiting for the new releases of those two libraries to also try out onl
 
 ### Try it out
 Clone this repository, `cd` into it and start [sbt](http://www.scala-sbt.org).
-Then execute `run` and choose `EnvironmentalCorrelationStoreDataApp` and let it run for a while (> 10 minutes at least, say) to have enough data for ML (or just use the existing file [ml-data.csv.gz](https://github.com/abo64/actyx-challenge/blob/master/ml-data.csv.gz) and skip this step).
+Then execute `run` and choose `EnvironmentalCorrelationStoreDataApp` and let it run for a while (> 10 minutes at least, say) to have enough data for ML (or just use the existing file [ml-data.csv.gz](https://github.com/abo64/actyx-challenge/blob/master/src/test/resources/ml-data.csv.gz) and skip this step).
 
 After that execute `run` and choose `EnvironmentalCorrelationAnalysisBatchApp`. You will see the linear coefficients for the environmental parameters to calculate the machine current on the console.
